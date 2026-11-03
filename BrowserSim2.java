@@ -10,7 +10,8 @@ package browsernavigationsimulator;
  */
 public class BrowserSim2 extends javax.swing.JFrame {
     private static final int MAX_PAGES = 100;
-    private BrowserSearch browserSearch;s
+    private BrowserSearch browserSearch;
+    private String[] visitedPages;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
